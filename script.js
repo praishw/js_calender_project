@@ -4,10 +4,6 @@ function renderDate(){
 
 date.setDate(1);
 
-var days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-
-var full_date =days[ date.getDay() ]+'-'+(date.getMonth()+1)+'-'+ date.getFullYear();
-
 var day= date.getDay();
 
 var endDate= new Date(
