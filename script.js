@@ -34,7 +34,7 @@ for(x= day; x>0; x--){
 }
 
 for(i=1; i<=endDate; i++){
-  if(i==today.getDate() && date.getMonth()== today.getMonth()){
+  if(i==date.getDate() && date.getMonth()== date.getMonth()){
   cells+= "<div class='today'>"+ i +"</div> ";
   }else{
     cells+= "<div>"+ i +"</div> ";
