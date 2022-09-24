@@ -23,7 +23,7 @@ var today= new Date();
 
 var months= ['January', 'February', 'March', 'April', 'May', 'June',
      'July', 'August', 'September', 'October', 'November', 'December'];
-document.getElementById("full_date").innerHTML=full_date;
+document.getElementById("full_date").innerHTML=date.getFullYear();
 
 document.getElementById("month").innerHTML= months[date.getMonth()];
 
